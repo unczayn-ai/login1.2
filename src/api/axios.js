@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://react-auth-back2-1.onrender.com",
+    baseURL: "https://react-auth-back1-2.onrender.com",
     timeout: 5000
 });
 
