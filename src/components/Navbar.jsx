@@ -57,6 +57,9 @@ function Navbar() {
                 <div className="md:hidden mt-4 flex flex-col gap-4">
                     <Link to="/dashboard">Dashboard</Link>
                     <Link to="/profile">Profile</Link>
+                    <button onClick={toggleTheme} className="font-bold dark:text-white hover:text-blue-600">
+                        {theme==="light" ? "Dark" : "Light"}
+                    </button>
                     <button onClick={handleLogout} className="text-left text-red-500">Logout</button>
                 </div>
             )}
